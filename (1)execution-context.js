@@ -33,3 +33,6 @@ console.log("I am global")
 //Execution of b() function context
 //Execution of a() function context
 //Execution of global context
+
+
+
