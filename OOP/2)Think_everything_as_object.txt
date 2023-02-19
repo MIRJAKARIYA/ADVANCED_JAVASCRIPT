@@ -1,0 +1,21 @@
+1. Everything which takes multiple properties to describe is an object.(যেকোনো কিছু যাকে বর্ণনা করার জন্য মাল্টিপল প্রপার্টি লাগবে সে ই একটা অব্জেক্ট)
+
+ex:
+
+**To describe a Person we need --> name,status,education,body,address etc.
+
+{
+name: string,
+status: boolean,
+body: number
+}
+
+so, Person is an object.
+
+
+**To describe a book --> name,author,publication,total page,price
+
+**Even a number can be an object.
+450.0000 --> integer part, floating part,negative,positive,string value
+
+

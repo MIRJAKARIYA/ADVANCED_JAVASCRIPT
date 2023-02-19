@@ -1,0 +1,25 @@
+1.properties ==> যেগুলো একটা অব্জেক্ট এর বইশিষ্টগুলোকে ডেস্ক্রাইভ করে সেগুলো মূলত properties.
+
+noun/adj --> name,status,education,body,address
+
+
+2.methods ==> যে কাজগুলো একটা অব্জেক্ট করতে পারে সেগুলো মূলত methods.
+
+verb --> eat(),walk(),sing(),dance()
+
+
+
+var rect = {
+    width: 10, ----> properties
+    height: 20, ----> properties
+
+    calculateArea: function(){ -------------------------->
+        return this.width * this.height
+    },                                                        methods
+    calculateRange: function(){ ------------------------->
+        return 2*(this.width+this.height) 
+    }
+}
+
+var area = rect.calculateArea()
+var range = rect.calculateRange()
